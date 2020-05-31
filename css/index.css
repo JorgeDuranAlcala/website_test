@@ -1,0 +1,148 @@
+@import "./navBar.css";
+@import "./ToggleSwitch.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f8ff;
+    margin-bottom: 5vmin;
+}
+
+.manage_bar {
+    width: 100%;
+    display: flex;
+    padding: 4vmin 2vmin;
+    background-color: #fff;
+    margin: 5vmin 0;
+    align-items: center;
+    position: relative;
+}
+
+.manage_bar .switch {
+    margin: 0 2vmin;
+}
+
+.manage_bar .options {
+    position: absolute;
+    right: 5px;
+}
+
+.container {
+    padding: 0 10vmin;
+    height: auto;
+}
+
+.grid-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+    grid-gap: 4vmin;
+}
+
+.card  {
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2vmin 1vmin;
+    position: relative;
+}
+
+.card-header {
+    background-color: #f0f8ff !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    padding: 2vmin 0;
+}
+
+.card-body {
+    padding: 4vmin;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body h3 {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 4vmin 0;
+}
+
+.card-body p {
+    font-size: 12px;
+    width: 80%;
+}
+
+.card-body  button {
+    border: none;
+    outline: none;
+    width: max-content;
+    padding: 1.5vmin 6vmin;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center !important;
+    margin: 2.5vmin 0;
+    border-radius: 4px;
+    background: #0e87dc;
+}
+
+
+.subscribed {
+    background: #09d814;
+}
+
+.normal {
+    background: #0e87dc;
+}
+
+.fa-check {
+    color: #0e87dc;
+    margin: 0 5px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+    text-align: left;
+}
+
+.opacity {
+    opacity: 0.2;
+}
+
+.card-footer span {
+    margin: 10px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.card-footer a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #2196f3;
+    padding: 2vmin;
+}
+
+.card-header {
+    background-color: #fff;
+}
+

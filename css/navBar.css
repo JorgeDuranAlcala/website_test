@@ -1,0 +1,67 @@
+header nav {
+    width: 100%;
+    position: relative;
+}
+
+nav ul {
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    float: right;
+    font-size: 0.9em;
+    padding: 9vmin 2vmin 0 2vmin;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav button  {
+    position: absolute;
+    right: 10vmin;
+    top: 16vmin;
+    border: none;
+    border: 3px solid #0e87dc;
+    outline: none;
+    width: max-content;
+    padding: 1.5vmin 6vmin;
+    color: #0e87dc;
+    background: inherit;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center !important;
+    margin: 2.5vmin 0;
+    border-radius: 4px;
+}
+
+.active {
+    color: #0e87dc;
+}
+
+.logo {
+    display: block;
+    float: left;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo .box-img {
+    width: 100px;
+}
+
+.logo h5 {
+    text-align: left;
+    font-size: 1.5em;
+    margin: 0 0 4vmin 0;
+}
+.logo .box-img img {
+    width: 100%;
+}
